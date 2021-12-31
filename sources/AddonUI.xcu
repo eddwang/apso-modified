@@ -95,58 +95,45 @@
 				<!-- Section for OpenOffice 4.x compatibility -->
 			</node>
 		</node>
-        <node oor:name="OfficeMenuBar">
+        <node oor:name="OfficeMenuBarMerging">
             <node oor:name="apso.python.script.organizer" oor:op="replace">
-                <prop oor:name="Title" oor:type="xs:string">
-                    <value/>
-                    <value xml:lang="en-US">Python</value>
+                <node oor:name="N001" oor:op="replace">
+                <prop oor:name="MergeContext" oor:type="xs:string"/>
+                <prop oor:name="MergePoint" oor:type="xs:string">
+                    <value>.uno:ToolsMenu\.uno:MacrosMenu\.uno:ScriptOrganizer</value>
                 </prop>
-                <prop oor:name="Target" oor:type="xs:string">
-                    <value>_self</value>
+                <prop oor:name="MergeCommand" oor:type="xs:string">
+                    <value>AddAfter</value>
                 </prop>
-                <node oor:name="Submenu">
-                    <node oor:name="m1" oor:op="replace">
-                        <prop oor:name="URL" oor:type="xs:string">
-                            <value>vnd.sun.star.script:apso.oxt|python|scripts|tools.py$console?language=Python&amp;location=user:uno_packages</value>
+                <prop oor:name="MergeFallback" oor:type="xs:string">
+                    <value>Ignore</value>
+                </prop>
+                <node oor:name="MenuItems">
+                    <node oor:name="N002" oor:op="replace">
+                        <prop oor:name="Context" oor:type="xs:string">
+                            <value/>
                         </prop>
                         <prop oor:name="Title" oor:type="xs:string">
-                            <value>APSO console</value>
+                            <value xml:lang="en">Organize python scripts</value>
+                            <value xml:lang="fr">Gérer les scripts python</value>
+                            <value xml:lang="it">Organizza script python</value>
+                            <value xml:lang="de">Python-Skripten verwalten</value>
+                            <value xml:lang="hu">Python-szkript szervező</value>
+                            <value xml:lang="nl">Beheren van pythonscripts</value>
+                            <value xml:lang="es">Gestión en Python</value>
+                            <value xml:lang="ja">Pythonスクリプトの管理</value>
+                        </prop>
+                        <prop oor:name="URL" oor:type="xs:string">
+                            <value>service:apso.python.script.organizer.impl</value>
                         </prop>
                         <prop oor:name="Target" oor:type="xs:string">
                             <value>_self</value>
                         </prop>
-                        <prop oor:name="Context" oor:type="xs:string">
-                        <!--
-                            <value>com.sun.star.sheet.SpreadsheetDocument</value>
-                        -->
-                           <value/>
-                        </prop>
                     </node>
-                     <node oor:name="m2" oor:op="replace">
-                        <prop oor:name="Context" oor:type="xs:string">
-                           <value/>
-                        </prop>
-                        <prop oor:name="Title" oor:type="xs:string">
-                           <value xml:lang="en">Organize python scripts</value>
-                           <value xml:lang="fr">Gérer les scripts python</value>
-                           <value xml:lang="it">Organizza script python</value>
-                           <value xml:lang="de">Python-Skripten verwalten</value>
-                           <value xml:lang="hu">Python-szkript szervező</value>
-                           <value xml:lang="nl">Beheren van pythonscripts</value>
-                           <value xml:lang="es">Gestión en Python</value>
-                           <value xml:lang="ja">Pythonスクリプトの管理</value>
-                        </prop>
-                        <prop oor:name="URL" oor:type="xs:string">
-                           <value>service:apso.python.script.organizer.impl</value>
-                        </prop>
-                        <prop oor:name="Target" oor:type="xs:string">
-                           <value>_self</value>
-                        </prop>
-                     </node>
-
+                </node>
                 </node>
             </node>
-        </node>
+        </node>>
         <node oor:name="OfficeToolBar">
             <node oor:name="apso.python.script.OfficeToolBar" oor:op="replace">
                 <node oor:name="m1" oor:op="replace">
