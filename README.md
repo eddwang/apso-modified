@@ -15,18 +15,12 @@ Alternative Python Script Organizer, by Hanya,Jean-Marc Zambon.
 * apso_debug.py line 62,686
 By WongHu
 
-# toolbar menubar
+# toolbar 
 
 ![toolbar_menubar](img/toobar_menubar-1.png)
 ![toolbar_menubar](img/toobar_menubar-2.png)
 
-
-# menubar
-
-|||
-|-|-|
-|![menubar](img/menubar-1.png)|![menubar](img/menubar-2.png)||
-    
+ 
 # notebookbar
 
 ![notebookbar](img/notebookbar-1.png)
