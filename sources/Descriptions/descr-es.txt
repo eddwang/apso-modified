@@ -1,0 +1,1 @@
+Gestor alternativo de guiones en *Python* desarrollado por Hanya.

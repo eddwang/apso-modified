@@ -1,0 +1,1 @@
+Gestionnaire alternatif de scripts python, développé par Hanya.

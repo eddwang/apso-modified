@@ -1,0 +1,8 @@
+Alternative Python Script Organizer, by Hanya.
+ 
+change APSO console background and forground color
+add submenu named "Python"
+resize Organizer 
+resize APSO_DEBUG
+By WongHu
+

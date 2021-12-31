@@ -1,0 +1,1 @@
+Gestore alternativo di script per python, sviluppato da Hanya.
